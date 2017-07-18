@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker Premium</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="main-content">
+    <ul id="cat-list"></ul>
+    <div id="cat-content">
+        <div id="cat-name"></div>
+        <img id="cat-picture" src=""/>
+        <div id="cat-count"></div>
+    </div>
+    <button id="admin-btn">Admin</button>
+    <div id="cat-admin">
+        <form id="update-cat" action="#">
+            <div class="cat-data-item">
+                <label for="update-name">Cat Name</label>
+                <input type="text" name="cat-name" id="update-name">
+            </div>
+            <div class="cat-data-item">
+                <label for="update-image">Cat Image url</label>
+                <input type="text" name="cat-image" id="update-image">
+            </div>
+            <div class="cat-data-item">
+                <label for="update-clicks">Cat Clicks</label>
+                <input type="text" name="cat-clicks" id="update-clicks">
+            </div>
+            <div class="submit-btns">
+                <input type="submit" name="cat-submit" id="cat-submit" value="Save">
+                <input type="submit" name="cat-cancel" id="cat-cancel" value="Cancel">
+
+            </div>
+        </form>
+
+    </div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-1.12.4.js"
+        integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+        crossorigin="anonymous"></script>
+</body>
+<script src="js/main.js"></script>
+</html>
